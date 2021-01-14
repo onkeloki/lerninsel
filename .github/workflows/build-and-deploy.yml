@@ -43,5 +43,5 @@ jobs:
       - name: Bash2
         run: |
           ls -al
-          sed -i "s/GIT_OWNER/$GITHUB_REPOSITORY_OWNER/g" map.json 
+          sed -i "s/git_owner/$GITHUB_REPOSITORY_OWNER/g" map.json 
           cat map.json
