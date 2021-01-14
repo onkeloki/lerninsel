@@ -79,7 +79,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"learnisland-acker"
+                 "value":"GIT_OWNER-field"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -163,7 +163,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"learnisland-gruppenraum"
+                 "value":"GIT_OWNER-house"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -277,7 +277,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"learnisland-wald"
+                 "value":"GIT_OWNER-wood"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -295,7 +295,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"learnisland-desert"
+                 "value":"GIT_OWNER-desert"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -349,7 +349,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"learnisland-feld"
+                 "value":"GIT_OWNER-cornfield"
                 }],
          "type":"tilelayer",
          "visible":true,
