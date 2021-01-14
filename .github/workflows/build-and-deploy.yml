@@ -19,7 +19,7 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@master
         with:
           find: "learnisland"
-          replace: "A $GITHUB_ACTION B $GITHUB_WORKFLOW C $GITHUB_RUN_ID"
+          replace: "X ${GITHUB_ACTION} Y ${{GITHUB_WORKFLOW}} C ${{GITHUB_RUN_ID}}"
           include: "map.json"
 
       - name: Optimize map
