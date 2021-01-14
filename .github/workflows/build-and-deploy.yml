@@ -30,7 +30,7 @@ jobs:
           git commit -am "Adding files"
       - name : fix links
         run : |
-          sed 's/learnisland/$GITHUB_REPOSITORY_OWNER/g' map.json | grep "wald" 
+          sed "s/learnisland/$GITHUB_REPOSITORY_OWNER/g" map.json | grep "wald" 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
