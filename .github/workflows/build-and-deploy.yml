@@ -17,13 +17,7 @@ jobs:
         uses: actions/checkout@v2	
       - name: run a script
         run: env
-      - name: Find and Replace
-        uses: jacobtomlinson/gha-find-replace@master
-        with:
-          find: "learnisland"
-          replace: "X ${GITHUB_REPOSITORY_OWNER} AA ${{GITHUB_REPOSITORY_OWNER}} "
-          include: "map.json"
-
+ 
       - name: Optimize map
         uses: thecodingmachine/map-optimizer-action@master
 
@@ -34,7 +28,7 @@ jobs:
           git config --global user.name "David Négrier"
           git checkout master
           git commit -am "Adding files"
-
+          sed -i "s/lerninsel/$GITHUB_REPOSITORY_OWNER/g" map.json
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
