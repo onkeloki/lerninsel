@@ -19,7 +19,7 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@master
         with:
           find: "learnisland"
-          replace: "${GITHUB_ACTOR} ASDA"
+          replace: "AAAYYY"
           include: "map.json"
 
       - name: Optimize map
