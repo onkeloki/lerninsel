@@ -21,7 +21,7 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@master
         with:
           find: "learnisland"
-          replace: "X ${GITHUB_REPOSITORY_OWNER} Y C "
+          replace: "X ${GITHUB_REPOSITORY_OWNER} AA ${{GITHUB_REPOSITORY_OWNER}} "
           include: "map.json"
 
       - name: Optimize map
