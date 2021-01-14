@@ -28,7 +28,9 @@ jobs:
           git config --global user.name "David Négrier"
           git checkout master
           git commit -am "Adding files"
-          sed -i "s/learnisland/$GITHUB_REPOSITORY_OWNER/g" map.json
+      - name : fix links
+        run : |
+          sed -i "s/learnisland/$GITHUB_REPOSITORY_OWNER/g" map.json  
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
