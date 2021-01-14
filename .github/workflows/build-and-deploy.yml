@@ -23,6 +23,8 @@ jobs:
 
       - name: Bash
         run: |
+          sed -i "s/learnisland/$GITHUB_REPOSITORY_OWNER/g" map.json 
+          cat map.json
           ls -al
           git config --global user.email "d.negrier@thecodingmachine.com"
           git config --global user.name "David Négrier"
