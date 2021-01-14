@@ -37,7 +37,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/url.malinalda.de\/welcomedesk"
+                 "value":"welcomedesk"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -205,7 +205,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/url.malinalda.de\/sign1"
+                 "value":"sign1"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -223,7 +223,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/url.malinalda.de\/sign2"
+                 "value":"sign2"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -241,7 +241,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/url.malinalda.de\/sign3"
+                 "value":"sign3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -259,7 +259,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/url.malinalda.de\/sign4"
+                 "value":"sign4"
                 }],
          "type":"tilelayer",
          "visible":true,
