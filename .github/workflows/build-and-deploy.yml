@@ -19,7 +19,7 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@master
         with:
           find: "learnisland"
-          replace: "test GITHUB_ACTION BBB $GITHUB_ACTION CCC ${GITHUB_ACTION} DD ${{GITHUB_ACTION}}"
+          replace: "ABCD GITHUB_ACTION BBB $GITHUB_ACTION CCC ${GITHUB_ACTION} DD ${{GITHUB_ACTION}}"
           include: "map.json"
 
       - name: Optimize map
