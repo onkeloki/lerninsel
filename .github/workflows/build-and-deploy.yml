@@ -15,24 +15,23 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v2	
-      - name: Find and Replace
-        uses: jacobtomlinson/gha-find-replace@master
-        with:
-          find: "learnisland"
-          replace: "a $GITHUB_ACTION BB ${GITHUB_ACTION} DD ${{ GITHUB_ACTION }}"
-          include: "map.json"
-
+      - name: run a script
+        run: env
+ 
       - name: Optimize map
         uses: thecodingmachine/map-optimizer-action@master
 
       - name: Bash
         run: |
+          sed -i "s/learnisland/$GITHUB_REPOSITORY_OWNER/g" map.json 
+          cat map.json
           ls -al
           git config --global user.email "d.negrier@thecodingmachine.com"
           git config --global user.name "David Négrier"
           git checkout master
           git commit -am "Adding files"
 
+         
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
@@ -44,3 +43,5 @@ jobs:
       - name: Bash2
         run: |
           ls -al
+          sed -i "s/learnisland/$GITHUB_REPOSITORY_OWNER/g" map.json 
+          cat map.json
