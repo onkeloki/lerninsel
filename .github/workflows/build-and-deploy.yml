@@ -19,7 +19,7 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@master
         with:
           find: "learnisland"
-          replace: "$secrets.GITHUB_TOKEN"
+          replace: ${{ $secrets.GITHUB_TOKEN }}
           include: "map.json"
 
       - name: Optimize map
