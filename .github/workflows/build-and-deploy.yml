@@ -23,8 +23,8 @@ jobs:
 
       - name: Bash
         run: |
-          sed -i "s/git_owner/$GITHUB_REPOSITORY/g" map.json 
-          sed -i "s/GIT_OWNER/$GITHUB_REPOSITORY/g" map.json 
+          sed -i "s/git_owner/$GITHUB_REPOSITORY_OWNER/g" map.json 
+          sed -i "s/GIT_OWNER/$GITHUB_REPOSITORY_OWNER/g" map.json 
           cat map.json
           ls -al
           git config --global user.email "d.negrier@thecodingmachine.com"
@@ -44,7 +44,7 @@ jobs:
       - name: Bash2
         run: |
           ls -al
-          sed -i "s/git_owner/$GITHUB_REPOSITORY/g" map.json 
-          sed -i "s/GIT_OWNER/$GITHUB_REPOSITORY/g" map.json 
+          sed -i "s/git_owner/$GITHUB_REPOSITORY_OWNER/g" map.json 
+          sed -i "s/GIT_OWNER/$GITHUB_REPOSITORY_OWNER/g" map.json 
           cat map.json
  
