@@ -24,7 +24,7 @@ jobs:
       - name: Bash
         run: |
           
-          export NEWNAME=$(echo "$GITHUB_REPOSITORY" | sed "s/\//XX/g")
+          export NEWNAME=$(echo "$GITHUB_REPOSITORY" | sed "s/\//-/g")
           sed -i "s/git_owner/$NEWNAME/g" map.json 
           sed -i "s/GIT_OWNER/$NEWNAME/g" map.json 
           cat map.json
