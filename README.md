@@ -1,7 +1,7 @@
 # WorkAdventure Education Map
 
 This is a map for WorkAdventure based on the WorkAdventure starter Kit,
-my wife use it for teaching her students while covid-19 Lockdown.
+my wife use it for teaching her students while covid-19 Lockdown..
 
 We ike to share this map with oteher teachers.
 maybe it helps you to try WorkAdventure out in your remote teaching lessons.
