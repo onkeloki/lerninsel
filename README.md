@@ -1,6 +1,7 @@
-# WorkAdventure Education Map
+# lerninsel 
 
-This is a map for WorkAdventure based on the WorkAdventure starter Kit.
+This is a map for [WorkAdventure](https://workadventu.re/) based on the WorkAdventure starter Kit.
+
 My wife use it for teaching her students while covid-19 lockdown.
 
 I ike to share this map with oteher teachers.
