@@ -9,7 +9,11 @@ maybe it helps you to try WorkAdventure out in your remote teaching lessons.
 ## Getting started
 
 - instruction soon
-  ![](docs/create_repo.png)
+  ![](docs/doc1.png)
+  ![](docs/doc2.png)
+  ![](docs/doc3.png)
+  ![](docs/doc4.png)
+  ![](docs/doc5.png)
 
 Be sure to keep the repository "Public".
 **In Github:**
