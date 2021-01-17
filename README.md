@@ -10,7 +10,7 @@ Maybe it helps you to try WorkAdventure out in your remote teaching lessons.
 ## Getting started
 
 #### 1. Start by cloning this repo and use it as Template:
-  ![](docs/doc1.png | width=200)
+  ![](docs/doc1.png | width=200){:height="50%" width="50%"}
 - 1.1 Give your copy of this code a name
   ![](docs/doc2.png)
 
