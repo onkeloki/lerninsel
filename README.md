@@ -10,6 +10,7 @@ Maybe it helps you to try WorkAdventure out in your remote teaching lessons.
 ## Getting started
 
 #### 1. Start by cloning this repo and use it as Template:
+<img src="/onkeloki/lerninsel/raw/master/docs/doc2.png" width=200>
   ![](docs/doc1.png =250x)
 - 1.1 Give your copy of this code a name
   ![](docs/doc2.png)
