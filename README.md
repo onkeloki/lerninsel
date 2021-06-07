@@ -1,4 +1,4 @@
-# lerninsel 
+# lerninsel - 
 
 This is a map for [WorkAdventure](https://workadventu.re/) based on the WorkAdventure starter Kit.
 
